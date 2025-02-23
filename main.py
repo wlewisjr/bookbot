@@ -16,7 +16,7 @@ def print_report(book_path, word_count, sorted_characters_list):
     print("--------- Character Count -------")
     for item in sorted_characters_list:
         if item["char"].isalpha():
-            print(f"{item["char"]}: {item["count"]}")
+            print(f"{item['char']}: {item['count']}")
 
 def main():
     if len(sys.argv) != 2:
